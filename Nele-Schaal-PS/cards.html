@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilde-Tiere-Quartett - Karten</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css" media="screen and (max-width: 767px)">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">Neles Wildtier-Quartett</h1>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="cards.html">Karten</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="sort-container">
+        <label for="sort-select">Sortieren nach:</label>
+        <select id="sort-select">
+            <option value="default">Gruppen</option>
+            <option value="max_weight">Gewicht</option>
+            <option value="max_length">Länge</option>
+            <option value="max_age">Alter</option>
+            <option value="top_speed">Geschwindigkeit</option>
+            <option value="litter_size">Nachwuchs</option>
+            <option value="deaths">Todesfälle</option>
+        </select>
+    </div>
+
+
+    <div id="wrapper">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/animaldata.js"></script>
+    <script src="script/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+@media screen and (max-width: 767px) {
+    #wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .card-content {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .card-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero-text {
+        padding: 1rem;
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    .hero-text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        height: auto;
+
+    }
+
+    .header-title {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    .header-nav {
+        gap: 1rem;
+    }
+
+    .header-nav a {
+        font-size: 0.9rem;
+    }
+}
+
+/* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular.woff2') format('woff2'),
+        url('../fonts/poppins-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-bold.woff2') format('woff2'),
+        url('../fonts/poppins-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+} */
